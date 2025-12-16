@@ -10,3 +10,23 @@
 /httpRequests/
 # Environment variables
 .env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Vectorstore (ChromaDB persistent storage)
+vectorstore/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
